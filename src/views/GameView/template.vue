@@ -6,5 +6,5 @@
     import './style.css'
     import script from './script'
 
-    script()
+    script('phaser-container')
 </script>
