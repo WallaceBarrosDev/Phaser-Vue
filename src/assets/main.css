@@ -9,3 +9,8 @@
   align-items: center;
   justify-content: center;
 }
+
+a {
+  color: var(--vt-c-text-dark-2);
+  text-decoration: none;
+}

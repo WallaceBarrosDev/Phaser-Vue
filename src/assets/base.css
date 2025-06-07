@@ -3,7 +3,7 @@
   --vt-c-white-soft: #d4f0e0;
   --vt-c-white-mute: #c1e6d4;
 
-  --vt-c-black: #102a43;
+  --vt-c-black: #1b1f25;
   --vt-c-black-soft: #1c3d5a;
   --vt-c-black-mute: #274c66;
 
@@ -17,7 +17,8 @@
   --vt-c-text-light-1: var(--vt-c-indigo);
   --vt-c-text-light-2: rgba(43, 103, 119, 0.66);
   --vt-c-text-dark-1: #e6f4ea;
-  --vt-c-text-dark-2: #13bd22;
+  --vt-c-text-dark-2: #25e474;
+  --vt-c-text-underline: #e6f4ea85;
 }
 
 :root {
