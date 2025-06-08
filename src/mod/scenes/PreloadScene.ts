@@ -12,16 +12,11 @@ const assetPath = {
     iguanignite: 'images/monster-tamer/monsters/iguanignite.png'
 }
 
-export class PreloadScenes extends Phaser.Scene {
+export class PreloadScene extends Phaser.Scene {
     constructor() {
         super({
-            key: SCENES_KEYS.PRELOAD_SCENE,
-            active: true
+            key: SCENES_KEYS.PRELOAD_SCENE
         })
-    }
-
-    init() {
-        console.log('init')
     }
 
     preload() {
@@ -41,11 +36,7 @@ export class PreloadScenes extends Phaser.Scene {
     }
 
     create() {
-        console.log('create')
         this.add.image(0, 0, BATTLE_BACKGROUD_ASSET_KEY.FOREST).setOrigin(0);
+        this.scene.start(SCENES_KEYS.BATTLE_SCENE)
     }
-
-    // update() {
-    //     console.log('update')
-    // }
 }
